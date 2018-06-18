@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@color/colorAccent1"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="."
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/cancel"
+        tools:ignore="HardcodedText" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Guide"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        tools:ignore="ObsoleteLayoutParam" />
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <LinearLayout
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:contentDescription=""
+            android:src="@mipmap/hazmat"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hazmat"
+
+            android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/ger"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:contentDescription=""
+                android:src="@mipmap/struct"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure Fire"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:contentDescription=""
+                android:src="@mipmap/trash"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trash Fire"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+  </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="141dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout23"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:contentDescription=""
+                android:src="@mipmap/grass"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grass Fire"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/ger"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:contentDescription=""
+                android:src="@mipmap/other"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Fire"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/skyblue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:contentDescription=""
+                android:src="@mipmap/fals"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False Alarm"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

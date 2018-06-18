@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cease Fire</string>
+    <string name="hello">Cease Fire Routing</string>
+    <string name="route_label">Press and hold map to route to Cease Fire or Click on the Get Directions icon</string>
+    <string name="sound">Sound</string>
+    <string name="actionBar_direction">Get Directions</string>
+    <string name="geocode_url">http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer</string>
+    <string name="useCurrlocation">Use current Location</string>
+    <string name="routing_title">Routing</string>
+    <string name="swap_addresses">Swap addresses</string>
+    <string name="clearText">Click to clear text</string>
+    <string name="route">Route</string>
+    <string name="my_location">My Location</string>
+    <string name="arcgis_username">My Location</string>
+    <string name="arcgis_password">My Location</string>
+    <string name="token">Fdltb3nov4pgY1tWuqv_8Sxq-xMZhvXIDWkB1BdXM0zDyfd-U8Kog_6UaFs9RPY49WTsolCW_ATNFcRSjRelzMdyVPxbkUOqnT_UuxQKTejq2wYLhI3aFM2i45gwiDD9I4IpstuFQvYck2U1fjjpxw..</string>
+    <string name="clientid">x0nYVjRzSrUkEOL8</string>
+</resources>
